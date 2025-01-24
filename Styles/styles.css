@@ -1,0 +1,172 @@
+@font-face {
+    font-family: julee;
+    src: url(../fonts/Julee/Julee-Regular.ttf);
+}
+
+.titleBg{
+background-image: url(../Images/biggerHelment.jpg);
+background-repeat: no-repeat;     
+background-position: center;      
+background-size: cover;           
+height: 100vh;                    
+margin: 0;  
+}
+.titleContainer{
+    padding-top: 200px;
+}
+.titleBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 800px;
+    border-radius: 15px;
+    border: 5px solid goldenrod;
+    background-color: rgb(208, 16, 16);
+    
+}
+.titleText{
+    font-family: julee;
+    font-size: 8rem;
+    text-align: center;
+}
+.enterContainer{
+    display: flex;
+    justify-content: center;
+}
+.enterBTN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    border: 5px solid rgb(208, 16, 16);
+}
+.enterBTN:hover{
+    background-color: rgb(208, 16, 16);
+    transform: scale(1.1); 
+}
+.enterText{
+    font-family: julee;
+    font-size: 2rem;
+    color: white;
+}
+/* Main Menu------------------------------------------------- */
+.menuBg{
+    background-image: url(../Images/Yasuke-first-Black-samurai-1180x664.png);
+    background-repeat: no-repeat;     
+background-position: center;      
+background-size: cover;           
+height: 100vh;                    
+margin: 0;  
+}
+
+
+.selectionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.selectionContainerx2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 105px;
+}
+.selectionBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 150px;
+    background-color: hsla(0, 0%, 0%, 0.80);
+    border-radius: 6px;
+    border: 5px solid goldenrod;
+    box-shadow: black 100%;
+}
+.selectionBox:hover{
+    background-color: rgb(2, 2, 2);
+    transform: scale(1.1); 
+}
+
+.selectionText{
+    font-family: julee;
+    color: white;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.introContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;   
+}
+.introBox{
+    height: 150px;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.70);
+    border-radius: 8px;
+    border: 5px solid goldenrod;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.introText{
+    font-family: julee;
+    color: white;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.storyContainer{
+    margin-top: 70px;
+}
+.storyBTN{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    border-radius: 8px;
+    border: 5px solid goldenrod;
+}
+.storyBTN:hover{
+    background-color: rgb(2, 2, 2);
+    transform: scale(1.1); 
+}
+
+/* --------------------------------------------------------- */
+@media screen and (max-width:426px){
+    .titleBox{
+        width: 90%;
+    }
+    .titleText{
+        font-size: 5rem;
+    }
+    /* MenuPage */
+    .selectionContainerx2{
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+    }
+    .selectionBox{
+        height: 75px;
+        width: 130px;
+    }
+    .introBox{
+       height: 165px;
+}
+.selectionText{
+    font-size: 1rem;
+}
+.introText{
+    font-size: .9rem;
+}
+.storyBTN{
+    width: 100px;
+}
+}
+/*  */
+@media screen and (max-width:769px)
+{
+    .introBox{
+        height: 190px;
+    }
+}
