@@ -1,172 +1,383 @@
 @font-face {
-    font-family: julee;
-    src: url(../fonts/Julee/Julee-Regular.ttf);
+  font-family: julee;
+  src: url(../fonts/Julee/Julee-Regular.ttf);
 }
 
-.titleBg{
-background-image: url(../Images/biggerHelment.jpg);
-background-repeat: no-repeat;     
-background-position: center;      
-background-size: cover;           
-height: 100vh;                    
-margin: 0;  
+.titleBg {
+  background-image: url(../Images/biggerHelment.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
 }
-.titleContainer{
-    padding-top: 200px;
+.titleContainer {
+  padding-top: 200px;
 }
-.titleBox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: 800px;
-    border-radius: 15px;
-    border: 5px solid goldenrod;
-    background-color: rgb(208, 16, 16);
-    
+.titleBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 800px;
+  border-radius: 15px;
+  border: 5px solid goldenrod;
+  background-color: rgb(208, 16, 16);
 }
-.titleText{
-    font-family: julee;
-    font-size: 8rem;
-    text-align: center;
+.titleText {
+  font-family: julee;
+  font-size: 8rem;
+  text-align: center;
 }
-.enterContainer{
-    display: flex;
-    justify-content: center;
+.enterContainer {
+  display: flex;
+  justify-content: center;
 }
-.enterBTN{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 100px;
-    background-color: goldenrod;
-    border-radius: 5px;
-    border: 5px solid rgb(208, 16, 16);
+.enterBTN {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+  background-color: goldenrod;
+  border-radius: 5px;
+  border: 5px solid rgb(208, 16, 16);
 }
-.enterBTN:hover{
-    background-color: rgb(208, 16, 16);
-    transform: scale(1.1); 
+.enterBTN:hover {
+  background-color: rgb(208, 16, 16);
+  transform: scale(1.1);
 }
-.enterText{
-    font-family: julee;
-    font-size: 2rem;
-    color: white;
+.enterText {
+  font-family: julee;
+  font-size: 2rem;
+  color: white;
 }
 /* Main Menu------------------------------------------------- */
-.menuBg{
-    background-image: url(../Images/Yasuke-first-Black-samurai-1180x664.png);
-    background-repeat: no-repeat;     
-background-position: center;      
-background-size: cover;           
-height: 100vh;                    
-margin: 0;  
+.menuBg {
+  background-image: url(../Images/Yasuke-first-Black-samurai-1180x664.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
 }
 
+.selectionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.selectionContainerx2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 105px;
+}
+.selectionBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 150px;
+  background-color: hsla(0, 0%, 0%, 0.8);
+  border-radius: 6px;
+  border: 5px solid goldenrod;
+  box-shadow: black 100%;
+}
+.selectionBox:hover {
+  background-color: rgb(2, 2, 2);
+  transform: scale(1.1);
+}
 
-.selectionContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.selectionText {
+  font-family: julee;
+  color: white;
+  font-size: 1.5rem;
+  align-items: center;
 }
-.selectionContainerx2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 105px;
+.introContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
-.selectionBox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 75px;
-    width: 150px;
-    background-color: hsla(0, 0%, 0%, 0.80);
-    border-radius: 6px;
-    border: 5px solid goldenrod;
-    box-shadow: black 100%;
+.introBox {
+  height: 150px;
+  width: 700px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  margin-left: 100px;
+  margin-top: 20px;
 }
-.selectionBox:hover{
-    background-color: rgb(2, 2, 2);
-    transform: scale(1.1); 
+.introText {
+  font-family: julee;
+  color: white;
+  font-size: 1.5rem;
+  align-items: center;
 }
-
-.selectionText{
-    font-family: julee;
-    color: white;
-    font-size: 1.5rem;
-    align-items: center;
+.storyContainer {
+  margin-top: 70px;
 }
-.introContainer{
-    display: flex;
-    justify-content: center;
-    gap: 10px;   
+.storyBTN {
+  height: 50px;
+  width: 110px;
+  background-color: black;
+  border-radius: 8px;
+  border: 5px solid goldenrod;
 }
-.introBox{
-    height: 150px;
-    width: 700px;
-    background-color: rgba(0, 0, 0, 0.70);
-    border-radius: 8px;
-    border: 5px solid goldenrod;
-    margin-left: 100px;
-    margin-top: 20px;
+.storyBTN:hover {
+  background-color: rgb(2, 2, 2);
+  transform: scale(1.1);
 }
-.introText{
-    font-family: julee;
-    color: white;
-    font-size: 1.5rem;
-    align-items: center;
+/* Say Hello--------------------------------------------------- */
+.sayHelloBg {
+  background-image: url(../Images/map.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
 }
-.storyContainer{
-    margin-top: 70px;
+.mainMenuContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.storyBTN{
+.mainMenuBTN {
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+}
+.mainMenuBTN:hover {
+  background-color: rgb(2, 2, 2);
+  transform: scale(1.1);
+}
+.mainMenuText {
+  font-family: julee;
+  color: white;
+  font-size: 1rem;
+  padding-top: 9px;
+}
+.helloContainer {
+  justify-items: center;
+}
+.helloBox {
+  justify-items: center;
+  width: 60%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.853);
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+}
+.helloBoxText {
+  font-family: julee;
+  color: white;
+  font-size: 2rem;
+  padding-top: 9px;
+}
+.userNameText {
+  font-family: julee;
+  font-size: 2rem;
+}
+.nextButton {
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.nextButton:hover {
+  background-color: rgb(2, 2, 2);
+  transform: scale(1.1);
+}
+.nextText {
+  font-family: julee;
+  color: white;
+  font-size: 1.5rem;
+}
+#submitBTN {
+  height: 50px;
+  width: 75px;
+  background-color: black;
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-family: julee;
+  text-align: center;
+  padding-top: 10px;
+}
+#submitBTN:hover {
+  background-color: rgb(2, 2, 2);
+  transform: scale(1.1);
+}
+/* Welcome Page---------------------------------------------- */
+.welcomeBg {
+  background-image: url(../Images/Assassins-Creed-Japan-Yasuke.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+.helloBox1Text {
+  font-family: julee;
+  color: white;
+  font-size: 2rem;
+  padding-top: 9px;
+}
+.helloBox1 {
+  justify-items: center;
+  width: 60%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.853);
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+}
+/* Adding 2 Numbers------------------------------------------ */
+.addingNumbersBg {
+  background-image: url(../Images/AdobeStock_440205254-scaled.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+#submitBTN2 {
     height: 50px;
-    width: 150px;
+    width: 75px;
     background-color: black;
     border-radius: 8px;
     border: 5px solid goldenrod;
-}
-.storyBTN:hover{
+    box-shadow: rgb(245, 245, 245) 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-family: julee;
+    text-align: center;
+    padding-top: 10px;
+  }
+  #submitBTN2:hover {
     background-color: rgb(2, 2, 2);
-    transform: scale(1.1); 
-}
+    transform: scale(1.1);
+  }
+  /* Asking Questions---------------------------------------- */
+  .askingQuestionsBg{
+    background-image: url(../Images/samurai-art-v0-nkpjhm75ahbc1.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  }
+  .helloBox2 {
+    justify-items: center;
+    width: 60%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.853);
+    border-radius: 8px;
+    border: 5px solid goldenrod;
+    box-shadow: rgb(245, 245, 245) 100%;
+  }
+
+  #submitBTN3 {
+    height: 50px;
+    width: 75px;
+    background-color: black;
+    border-radius: 8px;
+    border: 5px solid goldenrod;
+    box-shadow: rgb(245, 245, 245) 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-family: julee;
+    text-align: center;
+    padding-top: 10px;
+  }
+  #submitBTN3:hover {
+    background-color: rgb(2, 2, 2);
+    transform: scale(1.1);
+  }
+    
 
 /* --------------------------------------------------------- */
-@media screen and (max-width:426px){
-    .titleBox{
+/* 403px BreakPoint  */
+@media screen and(max-width:403px) {
+    .helloBox {
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 769px) {
+    .introBox {
+      height: 190px;
+    }
+    /* Welcome Page */
+    .helloBox1 {
+      height: 350px;
+    }
+    .helloBox1Text {
+      font-size: 1.5rem;
+    }
+    /* Asking Questions */
+    .helloBox2{
+        height: 500px;
+    }
+  }
+
+    @media screen and (max-width: 426px) {
+      .titleBox {
         width: 90%;
-    }
-    .titleText{
+      }
+      .titleText {
         font-size: 5rem;
-    }
-    /* MenuPage */
-    .selectionContainerx2{
+      }
+      /* MenuPage */
+      .selectionContainerx2 {
         display: flex;
         justify-content: center;
         gap: 0px;
-    }
-    .selectionBox{
+      }
+      .selectionBox {
         height: 75px;
         width: 130px;
+      }
+      .introBox {
+        height: 165px;
+      }
+      .selectionText {
+        font-size: 1rem;
+      }
+      .introText {
+        font-size: 0.9rem;
+      }
+      .storyBTN {
+        width: 100px;
+      }
+       /* Welcome Page */
+ .helloBox1Text {
+   font-size: 1rem;
+  }
+
+    /* Asking Questions */
+    .helloBox2{
+        height: 450px;
     }
-    .introBox{
-       height: 165px;
 }
-.selectionText{
-    font-size: 1rem;
-}
-.introText{
-    font-size: .9rem;
-}
-.storyBTN{
-    width: 100px;
-}
-}
-/*  */
-@media screen and (max-width:769px)
-{
-    .introBox{
-        height: 190px;
-    }
-}
+
+
