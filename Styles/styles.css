@@ -256,128 +256,349 @@
   margin: 0;
 }
 #submitBTN2 {
-    height: 50px;
-    width: 75px;
-    background-color: black;
-    border-radius: 8px;
-    border: 5px solid goldenrod;
-    box-shadow: rgb(245, 245, 245) 100%;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    color: white;
-    font-family: julee;
-    text-align: center;
-    padding-top: 10px;
-  }
-  #submitBTN2:hover {
-    background-color: rgb(2, 2, 2);
-    transform: scale(1.1);
-  }
-  /* Asking Questions---------------------------------------- */
-  .askingQuestionsBg{
-    background-image: url(../Images/samurai-art-v0-nkpjhm75ahbc1.webp);
+  height: 50px;
+  width: 75px;
+  background-color: black;
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-family: julee;
+  text-align: center;
+  padding-top: 10px;
+}
+#submitBTN2:hover {
+  background-color: rgb(2, 2, 2);
+  transform: scale(1.1);
+}
+/* Asking Questions---------------------------------------- */
+.askingQuestionsBg {
+  background-image: url(../Images/samurai-art-v0-nkpjhm75ahbc1.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
   margin: 0;
+}
+.helloBox2 {
+  justify-items: center;
+  width: 60%;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.853);
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+}
+
+#submitBTN3 {
+  height: 50px;
+  width: 75px;
+  background-color: black;
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-family: julee;
+  text-align: center;
+  padding-top: 10px;
+}
+#submitBTN3:hover {
+  background-color: rgb(2, 2, 2);
+  transform: scale(1.1);
+}
+/* Odd or Even Page */
+.oddOrEvenBg {
+  background-image: url(../Images/NEmoswvvF8XDHuAHRQRo--1--5o386.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+#submitBTN4 {
+  height: 50px;
+  width: 75px;
+  background-color: black;
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-family: julee;
+  text-align: center;
+  padding-top: 10px;
+}
+#submitBTN4:hover {
+  background-color: rgb(2, 2, 2);
+  transform: scale(1.1);
+}
+
+.helloBox2 {
+  justify-items: center;
+  width: 60%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.853);
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+}
+.helloBox2Text {
+  font-family: julee;
+  color: white;
+  font-size: 2rem;
+  padding-top: 9px;
+}
+
+/* Greater Than less Than Page */
+
+.gtltBg {
+  background-image: url(../Images/dha8ep4-a77799d9-2ba7-4d60-bd10-cd55a0abc646.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+#submitBTN5 {
+  height: 50px;
+  width: 75px;
+  background-color: black;
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-family: julee;
+  text-align: center;
+  padding-top: 10px;
+}
+#submitBTN5:hover {
+  background-color: rgb(2, 2, 2);
+  transform: scale(1.1);
+}
+
+.helloBox3 {
+  justify-items: center;
+  width: 60%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.853);
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+}
+.helloBox3Text {
+  font-family: julee;
+  color: white;
+  font-size: 2rem;
+  padding-top: 9px;
+}
+
+/* MadLib-------------------------------------------------- */
+.madLibBg {
+  background-image: url(../Images/dfqmb0f-d9e82143-fb2f-4581-bf35-3f775f73b4fd.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+.helloBox3Text {
+  font-size: 1rem;
+}
+/* RevereItNumber------------------------------------------- */
+.reverseitNumberBg {
+  background-image: url(../Images/A_silhouette_of_a_samurai.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+#submitBTN5 {
+  height: 50px;
+  width: 75px;
+  background-color: black;
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-family: julee;
+  text-align: center;
+  padding-top: 10px;
+}
+#submitBTN5:hover {
+  background-color: rgb(2, 2, 2);
+  transform: scale(1.1);
+}
+
+/* Reverse It Word Page------------------------------------- */
+.reverseitWordBg {
+  background-image: url(../Images/Yasuke.png.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+/* Magic8Ball Page------------------------------------------- */
+.magic8BallBg {
+  background-image: url(../Images/190517134410-20190517-japan-african-samurai-illo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+/* Restaurant Picker---------------------------------------- */
+.restaurantBg {
+  background-image: url(../Images/175158.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+.helloBox6 {
+  justify-items: center;
+  width: 60%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.853);
+  border-radius: 8px;
+  border: 5px solid goldenrod;
+  box-shadow: rgb(245, 245, 245) 100%;
+}
+.helloBox6Text {
+  font-family: julee;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 9px;
+}
+
+.categoryTxt {
+  color: white;
+  font-family: julee;
+}
+
+/* Ending Page---------------------------------------------- */
+.endingBg {
+    background-image: url(../Images/ac84f49d-a308-4fb6-a1a2-ac9255fe2665_1792x1024.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
   }
+  .helloBox7Text {
+    font-family: julee;
+    color: white;
+    font-size: 1.5rem;
+    /* padding-top: 9px; */
+  }
+  
+
+
+/* --------------------------------------------------------- */
+/* 403px BreakPoint  */
+@media screen and(max-width:403px) {
+  .helloBox {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .introBox {
+    height: 190px;
+  }
+  /* Welcome Page */
+  .helloBox1 {
+    height: 350px;
+  }
+  .helloBox1Text {
+    font-size: 1.5rem;
+  }
+  /* Asking Questions */
   .helloBox2 {
+    height: 500px;
+  }
+  /* Ending Page */
+  .helloBox7Text{
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .titleBox {
+    width: 90%;
+  }
+  .titleText {
+    font-size: 5rem;
+  }
+  /* MenuPage */
+  .selectionContainerx2 {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+  }
+  .selectionBox {
+    height: 75px;
+    width: 130px;
+  }
+  .introBox {
+    height: 165px;
+  }
+  .selectionText {
+    font-size: 1rem;
+  }
+  .introText {
+    font-size: 0.9rem;
+  }
+  .storyBTN {
+    width: 100px;
+  }
+  /* Welcome Page */
+  .helloBox1Text {
+    font-size: 1rem;
+  }
+
+  /* Asking Questions */
+  .helloBox2 {
+    height: 450px;
+  }
+
+  /* Odd or Even */
+  .hello2Box {
     justify-items: center;
     width: 60%;
-    height: 600px;
+    height: 300px;
     background-color: rgba(0, 0, 0, 0.853);
     border-radius: 8px;
     border: 5px solid goldenrod;
     box-shadow: rgb(245, 245, 245) 100%;
   }
-
-  #submitBTN3 {
-    height: 50px;
-    width: 75px;
-    background-color: black;
-    border-radius: 8px;
-    border: 5px solid goldenrod;
-    box-shadow: rgb(245, 245, 245) 100%;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    color: white;
+  .helloBox2Text {
     font-family: julee;
-    text-align: center;
-    padding-top: 10px;
+    color: white;
+    font-size: 1rem;
+    padding-top: 9px;
   }
-  #submitBTN3:hover {
-    background-color: rgb(2, 2, 2);
-    transform: scale(1.1);
+  /* Restaurant Picker-------------------------------------- */
+  .helloBox6Text {
+    font-size: 0.8rem;
   }
-    
-
-/* --------------------------------------------------------- */
-/* 403px BreakPoint  */
-@media screen and(max-width:403px) {
-    .helloBox {
-        height: 250px;
-    }
+  .categoryTxt {
+    font-size: 0.8rem;
+  }
 }
-
-
-@media screen and (max-width: 769px) {
-    .introBox {
-      height: 190px;
-    }
-    /* Welcome Page */
-    .helloBox1 {
-      height: 350px;
-    }
-    .helloBox1Text {
-      font-size: 1.5rem;
-    }
-    /* Asking Questions */
-    .helloBox2{
-        height: 500px;
-    }
-  }
-
-    @media screen and (max-width: 426px) {
-      .titleBox {
-        width: 90%;
-      }
-      .titleText {
-        font-size: 5rem;
-      }
-      /* MenuPage */
-      .selectionContainerx2 {
-        display: flex;
-        justify-content: center;
-        gap: 0px;
-      }
-      .selectionBox {
-        height: 75px;
-        width: 130px;
-      }
-      .introBox {
-        height: 165px;
-      }
-      .selectionText {
-        font-size: 1rem;
-      }
-      .introText {
-        font-size: 0.9rem;
-      }
-      .storyBTN {
-        width: 100px;
-      }
-       /* Welcome Page */
- .helloBox1Text {
-   font-size: 1rem;
-  }
-
-    /* Asking Questions */
-    .helloBox2{
-        height: 450px;
-    }
-}
-
-
