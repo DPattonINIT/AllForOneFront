@@ -415,6 +415,7 @@
 .helloBox3Text {
   font-size: 1rem;
 }
+
 /* RevereItNumber------------------------------------------- */
 .reverseitNumberBg {
   background-image: url(../Images/A_silhouette_of_a_samurai.jpg);
@@ -536,6 +537,11 @@
   /* Ending Page */
   .helloBox7Text{
     font-size: .9rem;
+  }
+
+  /* MadLib------------------------------------- */
+  #resultsBox5Text{
+    font-size: 1rem;
   }
 }
 
